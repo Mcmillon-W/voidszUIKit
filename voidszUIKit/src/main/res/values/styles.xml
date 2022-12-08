@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="cornerRadius" format="dimension|reference" />
+    <attr name="cornerRadiusTopLeft" format="dimension|reference" />
+    <attr name="cornerRadiusTopRight" format="dimension|reference" />
+    <attr name="cornerRadiusBottomLeft" format="dimension|reference" />
+    <attr name="cornerRadiusBottomRight" format="dimension|reference" />
+
+    <declare-styleable name="SquircleFrameLayout">
+        <attr name="cornerRadius" />
+        <attr name="cornerRadiusTopLeft" />
+        <attr name="cornerRadiusTopRight" />
+        <attr name="cornerRadiusBottomLeft" />
+        <attr name="cornerRadiusBottomRight" />
+    </declare-styleable>
+
+    <declare-styleable name="SquircleConstraintLayout">
+        <attr name="cornerRadius" />
+        <attr name="cornerRadiusTopLeft" />
+        <attr name="cornerRadiusTopRight" />
+        <attr name="cornerRadiusBottomLeft" />
+        <attr name="cornerRadiusBottomRight" />
+    </declare-styleable>
+
+</resources>
